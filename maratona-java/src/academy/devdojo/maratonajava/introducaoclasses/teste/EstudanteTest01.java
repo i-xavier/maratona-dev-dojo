@@ -1,10 +1,10 @@
-package introducaoclasses.teste;
+package academy.devdojo.maratonajava.introducaoclasses.teste;
 
-import introducaoclasses.dominio.Pessoa;
+import academy.devdojo.maratonajava.introducaoclasses.dominio.Estudante;
 
-public class PessoaTest {
+public class EstudanteTest01 {
     public static void main (String[] args) {
-        Pessoa p1 = new Pessoa();
+        Estudante p1 = new Estudante();
 
         p1.idade = 11;
         p1.nome = "Carlos";
